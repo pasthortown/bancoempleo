@@ -25,3 +25,43 @@ li a:hover {
   background-position: bottom center;
   background-size: cover;
 }
+
+.video-area {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  background-position: center center;
+  background-size: cover;
+  border: 20px solid #fff;
+  border-radius: 20px;
+  height: 650px;
+  -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+}
+
+.counter {
+  font-size: 60px;
+}
+
+.socialIcon {
+  background: #9b69e4;
+  margin:30px;
+  padding:20px;
+  font-size: 30px;
+  color: #ffffff;
+  height: 90px;
+  width: 90px;
+  line-height: 100px;
+  font-weight: 500;
+  border-radius: 10px 10px 10px 0px;
+  margin-right: 10px;
+}
+
+.socialIcon:hover {
+  background: #fb397d;
+  color: #fff;
+  border-color: transparent;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
