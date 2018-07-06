@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: #222;">
+  <div class="navbar-brand" style="color:white;">Bolsa de Empleo</div>
+  <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown" ngbDropdown>
+              <a href="javascript:void(0)" class="nav-link" ngbDropdownToggle style="color:white;">
+                  <i><img src="{{fotoPerfil}}" class="rounded-circle" style="width: 40px; height: 40px;"></i>&nbsp; {{username}} <b class="caret"></b>
+              </a>
+              <div class="dropdown-menu-right" ngbDropdownMenu>
+                  <a routerLink="/profile" class="dropdown-item">
+                      <i class="fa fa-fw fa-user"></i>&nbsp;Perfil
+                  </a>
+                  <a class="dropdown-item" (click)="cerrarSesion()">
+                      <i class="fa fa-fw fa-power-off"></i>&nbsp;Cerrar Sesión
+                  </a>
+              </div>
+          </li>
+      </ul>
+  </div>
+</nav>
